@@ -1,0 +1,10 @@
+form{
+  border: 1px solid salmon;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+form:hover input:focus {
+  background-color:  sienna;
+}
