@@ -1,0 +1,139 @@
+
+:root {
+  --button-box-shadow-width: 0.375em;
+  --button-box-shadow: 0 var(--button-box-shadow-width) 0 currentColor;
+  --box-border: 3px;
+}
+.body {
+  border: 1px chartreuse solid;
+  display: flex;
+  width: 650px;
+  height: 370px;
+  flex-wrap: nowrap;
+}
+.playList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.menu {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.menu-name {
+  font-size: 35px;
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.album {
+  display: flex;
+  margin-bottom: 20px;
+}
+.album-info {
+  display: flex;
+  flex-direction: column;
+}
+.album-cover {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  border-radius: 0.8em;
+  border: var(--box-border);
+  border-style: solid;
+}
+.album-name {
+  font-size: 70px;
+  font-weight: bold;
+}
+.album-composer {
+  font-size: 25px;
+  font-weight: bold;
+}
+.btn {
+  display: flex;
+}
+.btn-play {
+  height: 70px;
+  width: 225px;
+  background-color: white;
+  margin-right: 20px;
+  border: var(--box-border);
+  border-radius: 1.3em;
+  border-style: solid;
+  box-shadow: var(--button-box-shadow);
+}
+.btn-heart,
+.btn-extra {
+  height: 70px;
+  width: 70px;
+  margin-right: 20px;
+  background-color: white;
+  border: var(--box-border);
+  border-radius: 5em;
+  border-style: solid;
+  box-shadow: var(--button-box-shadow);
+}
+.btn-play,
+.btn-extra,
+.btn-heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-play > i {
+  margin-right: 10px;
+}
+.btn-play > span {
+  font-size: 30px;
+}
+.musicList {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.music-picture1,
+.music-picture2,
+.music-picture3,
+.music-picture4 {
+  margin-right: 20px;
+  height: 65px;
+  width: 65px;
+  border-radius: 0.8em;
+  border: var(--box-border);
+  border-style: solid;
+}
+.music-picture1 {
+  background-color: aqua;
+}
+.music-picture2 {
+  background-color: deeppink;
+}
+.music-picture3 {
+  background-color: pink;
+}
+.music-picture4 {
+  background-color: darkseagreen;
+}
+.music-information {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.music-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.music-name {
+  font-size: 25px;
+  font-weight: bold;
+}
+.musician {
+  color: gray;
+}
