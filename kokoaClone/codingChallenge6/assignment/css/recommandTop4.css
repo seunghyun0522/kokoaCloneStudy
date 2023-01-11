@@ -1,0 +1,35 @@
+.recommand-books-top-4{
+    margin: 50px 0 ;
+}
+.top4-book-stars i{
+    color: rgb(224, 222, 222);
+}
+.top-Adventures{
+    margin: 30px 0px;
+}
+.top4-book{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.recommand-books img{
+    width: 90%;
+    height: 175px;
+    border: none;
+}
+.top4-book-stars{
+    margin-bottom: 0 30px;
+    padding: 0px;
+}
+.star1 :not(i:nth-child(5)){
+    color: #FFCE32;
+}
+.star2 i{
+    color: #FFCE32;
+}
+.star3 i:nth-child(1), i:nth-child(2),i:nth-child(3){
+    color: #FFCE32;
+}
+.star4 :not(i:nth-child(5)){
+    color: #FFCE32;
+}

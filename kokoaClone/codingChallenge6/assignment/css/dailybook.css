@@ -1,0 +1,85 @@
+.content{
+    margin: 0 10px;
+}
+
+.DailyBook{
+    display: flex;
+    flex-direction: column;
+}
+
+.DailyBook img{
+    height: 340px;
+    width: 36%;
+    margin-right: 50px;
+}
+
+.select-btn,.book-info__column, .book-btn{
+    display: flex;
+}
+.book-info{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+
+}
+.book-info span:nth-child(1){
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.book-info span:nth-child(2){
+    font-size: 20px;
+    margin-bottom: 10px;
+    opacity: 0.3;
+}
+.book-stars{
+    margin-bottom: 20px;
+    padding: 0px;
+}
+.select-btn{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.select-btn button{
+    margin-right: 10px;
+    padding: 7px 20px;
+    border: none;
+    font-size: 15px;
+    background-color: #F7F7F7;
+}
+.book-stars i:nth-child(1),i:nth-child(2),i:nth-child(3),i:nth-child(4){
+    color: #FFCE32;
+}
+.book-stars i:nth-child(5){
+    color: grey;
+    opacity: 0.4;
+}
+.book-btn{
+    display: flex;
+    margin-top: 10px;
+}
+.book-btn--circle{
+    height: 35px;
+    width: 35px;
+    background-color: #FFCE32;
+
+    border-radius: 50px;
+}
+.book-btn button{
+    margin-right: 20px;
+    border: none;
+    
+  
+}
+.book-btn i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-btn button:nth-child(2){
+    font-size: 15px;
+    margin-left: 40px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+}

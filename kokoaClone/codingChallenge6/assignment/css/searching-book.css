@@ -1,0 +1,30 @@
+
+.searching-books{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ .searching-books input{
+     background-color: white;
+     border: none;
+     width: 100%;
+     height: 70px;
+     position: relative;
+     bottom:35px;
+     border-radius: 25px;
+     text-align: left;
+     font-size: 18px;
+     box-shadow: 2px 2px 1px 1px gray;
+     
+ }
+ .searching-books input::placeholder{
+     padding:0 20px;
+ }
+ .searching-books i{
+    
+     position: relative;
+     left: -30px;
+     bottom: 35px;
+     opacity: 0.5;
+ }
